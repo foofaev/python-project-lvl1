@@ -4,6 +4,9 @@ insall:
 build:
 	 poetry build
 
+lint:
+	poetry run flake8 brain_games
+
 package-install:
 	pip install --user dist/*.whl
 

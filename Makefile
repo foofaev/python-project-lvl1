@@ -1,4 +1,4 @@
-insall:
+install:
 	poetry install
 
 build:

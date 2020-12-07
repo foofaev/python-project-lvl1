@@ -13,7 +13,12 @@ positive_message = 'Correct!'
 
 
 def start_game(game):
-    """Run provided game."""
+    """Run provided game.
+
+    Args:
+        game: a game module from ./games.
+            Should contain function generate_round and constant OBJECTIVE
+    """
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print('Hello, {0}!'.format(name))

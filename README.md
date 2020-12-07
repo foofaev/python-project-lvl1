@@ -15,13 +15,22 @@ The project was completed while studying on [python course](https://ru.hexlet.io
 $ make setup
 ```
 
-## Brain-even game
+## Games:
+### brain-even
 Player should answer either 'yes' if number is even, or 'no' if otherwise
 ### Start:
 ```sh
 $ brain-even
 ```
 [![asciicast](https://asciinema.org/a/377682.svg)](https://asciinema.org/a/377682)
+
+### brain-calc
+Player should solve given math expression
+### Start:
+```sh
+$ brain-calc
+```
+[![asciicast](https://asciinema.org/a/377695.svg)](https://asciinema.org/a/377695)
 
 ## Development requirements:
  - python >= 3.6

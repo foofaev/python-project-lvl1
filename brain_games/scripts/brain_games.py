@@ -6,7 +6,7 @@ from brain_games.cli import welcome_user
 
 
 def main():
-    """Welcomes user."""
+    """Welcome user."""
     welcome_user()
 
 

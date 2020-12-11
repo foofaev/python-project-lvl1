@@ -1,8 +1,8 @@
 # Brain games project
 
 [![Actions Status](https://github.com/foofaev/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/foofaev/python-project-lvl1/actions?query=workflow%3Ahexlet-check)
-[![Maintainability](https://api.codeclimate.com/v1/badges/a26b9b19a7bbe6d13161/maintainability)](https://codeclimate.com/github/foofaev/python-project-lvl1/maintainability)
 [![Python CI](https://github.com/foofaev/python-project-lvl1/workflows/Python%20CI/badge.svg)](https://github.com/foofaev/python-project-lvl1/actions?query=workflow%3A%22Python+CI%22)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a26b9b19a7bbe6d13161/maintainability)](https://codeclimate.com/github/foofaev/python-project-lvl1/maintainability)
 
 
 ##
@@ -14,12 +14,13 @@ The project was completed while studying on [python course](https://ru.hexlet.io
 ```sh
 $ make setup
 ```
+[![asciicast](https://asciinema.org/a/378866.svg)](https://asciinema.org/a/378866)
 
 ## Games:
 
 ### brain-even
 Player should answer either 'yes' if number is even, or 'no' if otherwise
-### Start:
+#### Start:
 ```sh
 $ brain-even
 ```
@@ -27,7 +28,7 @@ $ brain-even
 
 ### brain-calc
 Player should solve given math expression
-### Start:
+#### Start:
 ```sh
 $ brain-calc
 ```
@@ -35,7 +36,7 @@ $ brain-calc
 
 ### brain-gcd
 Player should find greatest common divisor between two nonnegative integers
-### Start:
+#### Start:
 ```sh
 $ brain-gcd
 ```
@@ -43,7 +44,7 @@ $ brain-gcd
 
 ### brain-progression
 Player should find missing element of provided progression
-### Start:
+#### Start:
 ```sh
 $ brain-progression
 ```
@@ -51,7 +52,7 @@ $ brain-progression
 
 ### brain-prime
 Player should answer either 'yes' if number is prime, or 'no' if otherwise
-### Start:
+#### Start:
 ```sh
 $ brain-prime
 ```

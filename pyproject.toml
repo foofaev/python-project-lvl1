@@ -1,11 +1,32 @@
 [tool.poetry]
 name = "hexlet_code"
-version = "0.0.5"
-description = ""
+version = "0.1.0"
+description = "A pack of simple math games also called 'brain games'"
 authors = ["alexandr.fufaev <alexander.fufaev@quantron-systems.com>"]
 packages = [
   { include = "brain_games" },
 ]
+license = "MIT"
+readme = "README.md"
+keywords = [
+  'game',
+  'hexlet',
+]
+homepage = "https://github.com/foofaev/python-project-lvl1"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: End Users/Desktop",
+    "Topic :: Games/Entertainment :: Puzzle Games",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Operating System :: POSIX :: Linux",
+    "Natural Language :: English",
+]
+repository = "https://github.com/foofaev/python-project-lvl1.git"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"

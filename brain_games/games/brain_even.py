@@ -9,7 +9,7 @@ def is_even(number: int) -> bool:
     """Predicate that checks if provided number is even.
 
     Args:
-        number: number to check if it's even
+        number (int): number to check if it's even
 
     Returns:
         A boolean value indicating that number is even

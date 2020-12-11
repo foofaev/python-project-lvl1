@@ -16,6 +16,7 @@ $ make setup
 ```
 
 ## Games:
+
 ### brain-even
 Player should answer either 'yes' if number is even, or 'no' if otherwise
 ### Start:
@@ -31,6 +32,30 @@ Player should solve given math expression
 $ brain-calc
 ```
 [![asciicast](https://asciinema.org/a/377695.svg)](https://asciinema.org/a/377695)
+
+### brain-gcd
+Player should find greatest common divisor between two nonnegative integers
+### Start:
+```sh
+$ brain-gcd
+```
+[![asciicast](https://asciinema.org/a/378555.svg)](https://asciinema.org/a/378555)
+
+### brain-progression
+Player should find missing element of provided progression
+### Start:
+```sh
+$ brain-progression
+```
+[![asciicast](https://asciinema.org/a/378581.svg)](https://asciinema.org/a/378581)
+
+### brain-prime
+Player should answer either 'yes' if number is prime, or 'no' if otherwise
+### Start:
+```sh
+$ brain-prime
+```
+[![asciicast](https://asciinema.org/a/378584.svg)](https://asciinema.org/a/378584)
 
 ## Development requirements:
  - python >= 3.6

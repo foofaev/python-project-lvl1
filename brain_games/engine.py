@@ -4,13 +4,6 @@ import prompt
 
 ROUNDS_COUNT = 3
 
-negative_message = """
-'{0}' is wrong answer ;(. Correct answer was '{1}'.
-Let's try again, {2}
-"""
-
-positive_message = 'Correct!'
-
 
 def start_game(game):
     """Run provided game.
@@ -32,9 +25,13 @@ def start_game(game):
         player_answer = prompt.string('Your answer: ')
 
         if player_answer != answer:
-            print(negative_message.format(player_answer, answer, name))
+            print('{0} is wrong answer ;(. Correct answer was {1}'.format(
+                player_answer,
+                answer,
+            ))
+            print("Let's try again, {0}".format(name))
             return
 
-        print(positive_message)
+        print('Correct!')
 
     print('Congratulations, {0}'.format(name))

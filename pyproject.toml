@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "A pack of simple math games also called 'brain games'"
 authors = ["alexandr.fufaev <alexander.fufaev@quantron-systems.com>"]
 packages = [
-{ include = "brain_games" },
+  { include = "brain_games" },
 ]
 license = "MIT"
 readme = "README.md"

@@ -29,7 +29,7 @@ def start_game(game):
                 player_answer,
                 answer,
             ))
-            print("Let's try again, {0}".format(name))
+            print("Let's try again, {0}!".format(name))
             return
 
         print('Correct!')

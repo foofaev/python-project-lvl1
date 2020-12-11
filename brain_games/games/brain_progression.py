@@ -28,7 +28,7 @@ def generate_question(first_element: int, step: int, index_of_missing: int):
     progression = ''
     index = 0
     while index < PROGESSION_SIZE:
-        separator = '' if index == 0 else ', '
+        separator = '' if index == 0 else ' '
         next_element = (
             '..'
             if index_of_missing == index

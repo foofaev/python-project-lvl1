@@ -34,4 +34,4 @@ def start_game(game):
 
         print('Correct!')
 
-    print('Congratulations, {0}'.format(name))
+    print('Congratulations, {0}!'.format(name))

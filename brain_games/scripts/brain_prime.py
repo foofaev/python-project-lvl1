@@ -9,7 +9,7 @@ from brain_games.games import brain_prime
 
 def main():
     """Run a game."""
-    engine.start_game(brain_prime)
+    engine.play_game(brain_prime)
 
 
 if __name__ == '__main__':

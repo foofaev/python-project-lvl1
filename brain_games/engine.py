@@ -5,7 +5,7 @@ import prompt
 ROUNDS_COUNT = 3
 
 
-def start_game(game):
+def play_game(game):
     """Run provided game.
 
     Args:
